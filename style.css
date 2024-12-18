@@ -17,7 +17,14 @@ body {
 
 .header-left {
     display: flex;
-    flex-direction: column;
+    align-items: center; /* Align the logo and text horizontally */
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 .header-left .title {
