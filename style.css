@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    height: 1cm;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-left .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-left .subtitle {
+    font-size: 14px;
+}
+
+.nav-links, .utility-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a, .utility-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-links a:hover, .utility-links a:hover {
+    color: grey;
+}
