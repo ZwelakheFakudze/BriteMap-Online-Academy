@@ -17,14 +17,9 @@ body {
 
 .header-left {
     display: flex;
-    align-items: center; /* Align the logo and text horizontally */
-}
-
-.logo {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 10px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px; Space between image and text
 }
 
 .header-left .title {
@@ -33,12 +28,19 @@ body {
 }
 
 .header-left .subtitle {
-    font-size: 14px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+
+.header-left img {
+    width: 40px; /* Resize logo */
+    height: 40px;
+    border-radius: 50%; /* Make the logo circular */
 }
 
 .nav-links, .utility-links {
     display: flex;
-    gap: 20px;
+    gap: 30px; /* Add space between the tabs */
 }
 
 .nav-links a, .utility-links a {
