@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px; Space between image and text
+    gap: 10px; 
 }
 
 .header-left .title {
@@ -52,4 +52,28 @@ body {
 
 .nav-links a:hover, .utility-links a:hover {
     color: grey;
+}
+
+.content {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content-image {
+    width: 40%; /* Maintain the same size as your background image */
+    height: 50%;
+    /* padding: 50px 50px; */
+}
+
+.overlay-text {
+    position: absolute;
+    left: 40%; /* Position the text to the right side of the image */
+    color: black;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 300px; /* Optional: restrict the width */
+    /* text-align: left; */
 }
