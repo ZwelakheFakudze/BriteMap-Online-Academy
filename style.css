@@ -34,18 +34,18 @@ body {
 }
 
 .header-left .school-info .title {
-    font-size: 20px;
+    font-size: 21px;
     font-weight: bold;
 }
 
 .header-left .school-info .subtitle {
-    font-size: 13px;
+    font-size: 12px;
     font-family: Arial, sans-serif;
 }
 
 .nav-links, .utility-links {
     display: flex;
-    gap: 30px; /* Add space between the tabs */
+    gap: 60px; /* Add space between the tabs */
 }
 
 .nav-links a, .utility-links a {
